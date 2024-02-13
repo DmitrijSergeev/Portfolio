@@ -6,9 +6,11 @@ import { Main } from '@/components/main/main'
 import { Projects } from '@/components/projects/propjects'
 import { Skills } from '@/components/skills/skills'
 
+import './App.scss'
+
 export function App() {
   return (
-    <div>
+    <div className={'App'}>
       <Header />
       <Main />
       <AboutMe />

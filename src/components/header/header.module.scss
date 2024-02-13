@@ -1,9 +1,38 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .header {
-  background-color: cadetblue;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  height: 80px;
+  padding: 23px 50px;
+
+  background-color: #111;
+
+  .box {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    list-style-type: none;
+
+    .item {
+      position: absolute;
+
+      display: flex;
+      justify-content: space-between;
+      order: 0;
+
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
 }
