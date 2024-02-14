@@ -1,7 +1,6 @@
 .header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   height: 80px;
   padding: 23px 50px;
@@ -10,18 +9,14 @@
 
   .box {
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
-
-    margin-left: 1000px;
-
     list-style-type: none;
 
     .item {
       display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      padding-left: 40px;
+      justify-content: space-around;
+      padding-left: 50px;
+      font-size: large;
     }
   }
 }
