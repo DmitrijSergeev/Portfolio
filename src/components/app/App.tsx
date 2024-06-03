@@ -12,12 +12,6 @@ export function App() {
   return (
     <div className={'App'}>
       <Header />
-      <Main />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contacts />
-      <Footer />
     </div>
   )
 }
